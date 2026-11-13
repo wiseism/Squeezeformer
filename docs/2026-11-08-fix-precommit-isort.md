@@ -30,3 +30,7 @@ poetry-core 严格校验导致 `pip install .` 构建元数据失败。
 | run id | 结果 |
 | --- | --- |
 | 42441545393 | ✅ success |
+
+## 复核（2026-11-13）
+- 仓库由 private 转 public（Free 分钟额度耗尽会被 billing 拦截）。
+- docs 推送触发的新 run 重跑后 ✅ success。
